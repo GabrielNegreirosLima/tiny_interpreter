@@ -4,32 +4,32 @@ package main;
  *
  * @author Gabriel e Antonio
  */
-public class Variavel {
-    
-    private char nome;
-    private double valor;
-    
-    public Variavel(){
-    
+public class Variable{
+
+    private char name;
+    private double value;
+
+    public Variable(){
+
     }
-    
-    public Variavel(char nome, double valor){
-        this.nome  = nome;
-        this.valor = valor;        
+
+    public Variable(char name, double value){
+        this.name  = name;
+        this.value = value;
     }
-    
-    public void setNome(char nome){
-        this.nome = nome;
+
+    public void setName(char name){
+        this.name = name;
     }
-    public char getNome(){
-        return this.nome;
-    }    
-    
-    public void setValor(double valor){
-        this.valor = valor;        
+    public char getName(){
+        return this.name;
     }
-    public double getValor(){
-        return this.valor;
+
+    public void setValue(double value){
+        this.value = value;
     }
-    
+    public double getValue(){
+        return this.value;
+    }
+
 }
